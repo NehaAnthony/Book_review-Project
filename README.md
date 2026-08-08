@@ -44,3 +44,35 @@ Book_review-Project
 │   └── Server-side Logic & APIs
 │
 └── README.md
+
+
+
+        User
+          │
+          ▼
+   ┌───────────────┐
+   │   Frontend    │
+   │ HTML/CSS/JS   │
+   └───────┬───────┘
+           │
+           │ API Requests
+           ▼
+   ┌───────────────┐
+   │    Backend    │
+   │ Java/Spring   │
+   │     Boot      │
+   └───────┬───────┘
+           │
+           │ Data Processing
+           ▼
+   ┌───────────────┐
+   │ Data / Storage│
+   └───────────────┘
+           │
+           ▼
+      API Response
+           │
+           ▼
+      Frontend UI
+
+
